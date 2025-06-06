@@ -1,0 +1,23 @@
+# Ignora o ambiente virtual
+env/
+
+# Ignora arquivos do VSCode
+.vscode/
+
+# Ignora arquivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Ignora arquivos do Django
+*.sqlite3
+*.log
+
+# Node modules do React
+frontend/node_modules/
+
+# Arquivos de build do React
+frontend/build/
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
